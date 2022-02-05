@@ -30,7 +30,7 @@ For example , if input is like
 
 then it have cycle.
 
-then, if we apply dp in here, the answer will be only 1 if we start from 1 to n or , it goes to infinite loop depends on your code.
+then, if we apply dp in here, the answer will be only 1 if we start from 1 to n or , it goes to infinite loop depends on your code(Maybe only 3 will be the answer).
 
 So, keep checking the cycle and if we have the cycle, stop everything and apply max value among them to every node in cycle.
 
